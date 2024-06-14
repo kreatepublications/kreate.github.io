@@ -1,0 +1,1477 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: #ffffff;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    overflow: hidden;
+    
+    background-size: cover ;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: relative;    
+    height: 100%;
+    width: 100%;
+    animation: anim 150s  ease-in-out infinite;
+    background-image: url(jefferson-santos-9SoCnyQmkzI-unsplash.jpg);
+  
+    background-repeat: no-repeat;
+
+
+}
+
+.container2{
+    width: 100%;
+    min-height: 100vh;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    overflow: hidden;
+    
+    background-size: cover ;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: relative;    
+    height: 100%;
+    width: 100%;
+    animation: anim 150s  ease-in-out infinite;
+    background-image: url(nubelson-fernandes-9_AChhXcrc8-unsplash.jpg);
+  
+    background-repeat: no-repeat;
+
+
+}
+.midblock{
+    width: 100%;
+    min-height: 100vh;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    overflow: hidden;
+    
+    background-size: cover ;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: relative;    
+    height: 100%;
+    width: 100%;
+    animation: anim 150s  ease-in-out infinite;
+    background-color: rgb(12,12,12);
+  
+    background-repeat: no-repeat;
+}
+
+.background{
+    
+    width: 100%;
+    min-height: 100vh;
+    padding-left: 8%;
+    padding-right: 18%;
+    box-sizing:content-box;
+    overflow: hidden;
+    margin-left: -20vh;
+    background-size: cover ;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: relative;    
+    height: 100%;
+    width: 100%;
+
+    background: linear-gradient(to bottom,rgba(12, 12, 12, 0.4), rgba(12, 12, 12, 0.300), rgba(12, 12, 12, 0.200), rgba(12, 12, 12, 0.200), rgba(12, 12, 12, 0.450), rgba(12, 12, 12,  0.850))  ;
+    
+}
+
+.bottomblock{
+    width: 100%;
+    min-height: 30vh;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    overflow: hidden;
+    
+    background-size: cover ;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: relative;    
+    height: 100%;
+    width: 100%;
+    animation: anim 150s  ease-in-out infinite;
+    background-color: rgb(12,12,12);
+  
+    background-repeat: no-repeat;
+}
+
+.background2{
+    width: 100%;
+    min-height: 100vh;
+    padding-left: 8%;
+    padding-right: 18%;
+    box-sizing:content-box;
+    overflow: hidden;
+    margin-left: -20vh;
+    background-size: cover ;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: relative;    
+    height: 100%;
+    width: 100%;
+    padding-bottom: 70px;
+
+    background: linear-gradient(to bottom,rgba(12, 12, 12, 0.850), rgba(12, 12, 12, 0.5), rgba(12, 12, 12, 0.5), rgba(12, 12, 12, 0.5),  rgba(12, 12, 12, 0.5),rgba(12, 12, 12, 0.5),rgba(12, 12, 12, 0.5), rgba(12, 12, 12, 0.850))  ;
+    
+}
+
+
+ins{
+    display:block;
+    width: 100%;
+    height: 42vh;
+}
+
+
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+
+.logo{
+    width: 50PX;
+    cursor: pointer;
+    margin: 30px 0;
+    
+}
+
+.menu-icon{
+    width: 25px;
+    cursor: pointer;
+    display: none;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px;
+    cursor: pointer;
+    transition: color 250ms;
+}
+
+nav ul li a:hover{
+    color: rgb(0, 97, 97);
+}
+.gb{
+    display: flex;
+    margin-bottom: 50px;
+}
+.text{
+    position:relative;
+    display:inline-block;
+    align-items: center;
+    top: 7vh;
+    left: 5.6%;
+    word-spacing: 2px;
+    font-style: normal;
+    
+}
+.link{
+    margin-left:16% ;
+    margin-top: 16.7%;
+}
+.link h1{
+    position:relative;
+    text-align: left;
+    font-weight:500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:20px;
+    padding-bottom: 10px;
+    
+}
+.link h2{
+    position:relative;
+    text-align: left;
+    font-weight:500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:30px;
+    padding-bottom: 15px;
+    margin-right: 20px;
+    
+}
+.link h3{
+    position:relative;
+    text-align: left;
+    font-weight:400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:15px;
+    padding-bottom: 10px;
+    
+}
+.link p{
+    position:relative;
+    text-align: left;
+    font-weight:100;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    padding-bottom: 10px;
+    
+}
+.text2{
+    position:relative;
+    display:inline-block;
+    align-items: center;
+    top: 20vh;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    word-spacing: 2px;
+    font-style: normal;
+    
+}
+.text2 p{
+    text-align: center;
+    font-weight:100;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    padding-bottom: 10px;
+    
+}
+
+.text2 h1{
+    position:relative;
+    text-align: center;
+    font-weight:500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:20px;
+    padding-bottom: 30px;
+    
+}
+
+.text h1{
+    position:relative;
+    text-align: center;
+    font-weight:500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:20px;
+    padding-bottom: 30px;
+    
+}
+.text h2{
+    position:relative;
+    text-align: center;
+    font-weight:500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:50px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    margin-top: -30px;
+    margin-right: -30px;
+    margin-left: -60px;
+    
+}
+.text h3{
+    position:relative;
+    text-align: center;
+    font-weight:400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:20px;
+    padding-bottom: 30px;
+    
+}
+.text2 h4{
+    position:relative;
+    text-align: center;
+    font-weight:500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:20px;
+    padding-bottom: 30px;
+    
+}
+.text p{
+    position:relative;
+    text-align: center;
+    font-weight:100;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    padding-bottom: 10px;
+    
+}
+
+.text h1{
+    text-align: center;
+    font-weight:400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:50px;
+
+}
+.text2 .but{
+    text-align: center;
+    align-self: center;
+    align-items: center;
+    position: relative;
+    width: 240px;
+    border: 0;
+    padding: 12px 10px;
+    outline: none;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    border-radius: 6px;
+    cursor: pointer;
+    top: 10vh;
+    transition: background-color  250ms;
+
+}
+
+.text2 .but:hover{
+    background-color:#ffffff4f
+    
+
+}
+.but{
+    text-align: center;
+    align-self: center;
+    align-items: center;
+    position: relative;
+    width: 240px;
+    border: 0;
+    padding: 12px 10px;
+    outline: none;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    border-radius: 6px;
+    cursor: pointer;
+    top: 2vh;
+    transition: background-color  250ms;
+
+}
+
+.but:hover{
+    background-color:#ffffff4f
+    
+
+}
+
+
+.text3 p{
+    padding-left: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.text4{
+    position:relative;
+    display:inline-block;
+    align-items: center;
+    top: 8vh;
+    left: 20vh;
+    word-spacing: 2px;
+    font-style: normal;
+    
+}
+.text4 p{
+    text-align: center;
+    font-weight:100;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    top: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+
+    
+}
+
+.text4 h1{
+    color: #868686;
+    position:relative;
+    text-align: center;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:20px;
+    padding-bottom: 20px;
+
+}
+    
+.text4 .sub{
+   
+    align-items: center;
+    text-align: center;
+    position:relative;
+    display: flex;
+    bottom: 9vh;
+   
+
+    
+    
+}
+.logo2{
+    width: 30PX;
+    cursor: pointer;
+    margin-right: -20px;
+    
+}
+.logo3{
+
+    width: 250PX;
+    cursor: pointer;
+    margin-right: 20px;
+    border-radius: 40px;
+    background: -10px;
+    background-color: rgb(237, 237, 237);
+    background-size: 300px;
+    animation: anim 150s  ease-in-out infinite ;
+    background-image: url(game\ logo.png);
+    background-repeat: no-repeat;
+    border-color: black;
+    border:black 5px;
+    border-style:solid;
+
+}
+.link2{
+    margin-left:14% ;
+    margin-top: 14%;
+    margin-right: 20%;
+}
+.link2 h1{
+    position:relative;
+    text-align: left;
+    font-weight:500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:25px;
+    padding-bottom: 10px;
+    
+}
+.link2 h2{
+    position:relative;
+    text-align: left;
+    font-weight:500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:25px;
+    padding-bottom: 10px;
+    margin-right: -100px;
+
+    
+}
+.link2 h3{
+    position:relative;
+    text-align: left;
+    font-weight:400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:15px;
+    padding-bottom: 10px;
+    
+}
+.link2 p{
+    position:relative;
+    text-align: left;
+    font-weight:100;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    padding-bottom: 10px;
+    margin-right: -100px;
+    
+}
+.link2 .but{
+    text-align: center;
+    align-self: center;
+    align-items: center;
+    position: relative;
+    width: 240px;
+    border: 0;
+    padding: 12px 10px;
+    outline: none;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    border-radius: 6px;
+    cursor: pointer;
+    top: 2vh;
+    transition: background-color  250ms;
+    margin-left: 60px;
+
+}
+
+.link2 .but:hover{
+    background-color:#ffffff4f
+    
+
+}
+
+.all{
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+.text2{
+    position:relative;
+    display:inline-block;
+    align-items: center;
+    top: 10vh;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    word-spacing: 2px;
+    font-style: normal;
+    
+}
+
+
+
+.text4 .right{
+    position: relative;
+    margin-left: 30px;
+    margin-top: 80px;
+    
+}
+.text4 .cone{
+    margin-bottom: 10px;
+}
+.text4 .left{
+    margin-top: 70px;
+
+    
+}  
+.text5 .sub{
+   
+    align-items: center;
+    text-align: center;
+    position:relative;
+    display: flex;
+    bottom: 9vh;
+   
+
+    
+    
+}
+.text5 .right{
+    position: relative;
+    margin-left: 30px;
+    margin-top: 80px;
+    
+}
+.text5 .cone{
+    margin-bottom: 10px;
+}
+.text5 .left{
+    margin-top: 70px;
+
+    
+}  
+
+.text5{
+    position:relative;
+    display:inline-block;
+    align-items: center;
+    top: 8vh;
+    left: 80vh;
+    word-spacing: 2px;
+    font-style: normal;
+    
+
+}
+.text5 p{
+    text-align: center;
+    font-weight:100;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    
+
+}
+.text5 h1{
+    color: #868686;
+    position:relative;
+    text-align: left;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:20px;
+    padding-bottom: 20px;
+
+}
+@media only screen and (max-width:600px){
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+        color: #ffffff;
+    }
+    .menu-icon{
+        margin: 40px 0;
+        margin-left: 60px;
+        display: block;
+        width: 50px;
+        transform: rotate(90deg);
+    }
+    .container{
+        width: 100%;
+        min-height: 100vh;
+       
+        box-sizing: border-box;
+        overflow: hidden;
+        
+        background-size: cover ;
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        position: relative;    
+        height: 100%;
+        width: 100%;
+        animation: anim 150s  ease-in-out infinite;
+        background-image: url(nick-morrison-FHnnjk1Yj7Y-unsplash.jpg);
+      
+        background-repeat: no-repeat;
+    
+    
+    }
+    nav ul{
+        width: 110%;
+        background: linear-gradient(to right,rgba(03, 0, 40, 0.1), rgba(03, 0, 40,0.5) ) ;
+        position: absolute;
+        top: 80px;
+        right: 21%;
+        z-index: 2;
+    }
+    
+    .container2{
+        width: 100%;
+        min-height:100vh ;
+        
+        box-sizing: border-box;
+        overflow: hidden;
+        
+        background-size: cover ;
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        position: relative;    
+        height: 100%;
+        width: 150%;
+        animation: anim 150s  ease-in-out infinite;
+        background-image: url(nubelson-fernandes-9_AChhXcrc8-unsplash.jpg);
+       
+        background-repeat: no-repeat;
+    
+    
+    }
+    .midblock{
+        width: 100%;
+        min-height: 100vh;
+        padding-left: 8%;
+        padding-right: 8%;
+        box-sizing: border-box;
+        overflow: hidden;
+        
+        background-size: cover ;
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        position: relative;    
+        height: 110%;
+        width: 100%;
+        animation: anim 150s  ease-in-out infinite;
+        background-color: rgb(12, 12, 12);
+      
+        background-repeat: no-repeat;
+    }
+    
+    .background{
+        
+        width: 100%;
+        min-height: 100vh;
+        padding-left: 8%;
+        padding-right: 100%;
+        box-sizing:content-box;
+        overflow: hidden;
+        margin-left: -20vh;
+        background-size: cover ;
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        position: relative;    
+        height: 100%;
+        width: 100%;
+    
+        background: linear-gradient(to bottom,rgba(12, 12, 12, 0.4), rgba(12, 12, 12, 0.300), rgba(12, 12, 12, 0.200), rgba(12, 12, 12, 0.200), rgba(12, 12, 12,0.450), rgba(12, 12, 12,  0.850))  ;
+        
+    }
+    
+    .bottomblock{
+        width: 100%;
+        min-height: 40vh;
+        padding-left: 8%;
+        padding-right: 8%;
+        box-sizing: border-box;
+        overflow: hidden;
+        display: flex;
+        
+        position: relative;    
+        height: 100%;
+        width: 100%;
+        animation: anim 150s  ease-in-out infinite;
+        background-color: rgb(3, 0, 40);
+      
+        background-repeat: no-repeat;
+    }
+    
+    .background2{
+        width: 100%;
+        min-height: 100vh;
+        padding-left: 8%;
+        padding-right: 100%;
+        box-sizing:content-box;
+        overflow: hidden;
+        margin-left: -20vh;
+        background-size: cover ;
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        position: relative;    
+        height: 100%;
+        width: 100%;
+        padding-bottom: 40%;
+    
+    
+        background: linear-gradient(to bottom,rgba(12, 12, 12, 0.850), rgba(12, 12, 12, 0.5), rgba(12, 12, 12, 0.5), rgba(12, 12, 12, 0.5),  rgba(12, 12, 12,0.5),rgba(012, 12, 12, 0.5),rgba(12, 12, 12,0.5), rgba(12, 12, 12, 0.850))  ;
+        
+    }
+    
+    
+    ins{
+        display:block;
+        width: 100%;
+        height: 42vh;
+    }
+    
+    #menulist{
+        overflow: hidden;
+        transition: 0.5s;
+    }
+
+    .navbar{
+       
+        display: flex;
+        align-items: center;
+        margin-left: 140px;
+        
+    }
+    
+    .logo{
+        width: 50PX;
+        cursor: pointer;
+        margin: 30px 0;
+        
+    }
+    .logo3{
+        
+        width: 250PX;
+        cursor: pointer;
+        margin-right: 50px;
+        border-radius: 40px;
+        border:black 5px;
+        border-style:solid;
+        margin-left: 41%;
+    
+    }
+    .container2 .logo3{
+        
+        width: 250PX;
+        cursor: pointer;
+        margin-right: 50px;
+        border-radius: 40px;
+        border:black 5px;
+        border-style:solid;
+        margin-left: 34%;
+    
+    }
+    
+    
+   
+    
+
+    
+    nav{
+        flex: 1;
+        text-align:right;
+        
+    }
+    
+    nav ul li{
+        list-style:none;
+        display:block;
+        padding-bottom: 10px;
+        
+    }
+    
+    nav ul li a{
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 14px;
+        cursor: pointer;
+        font-weight: 300;
+        
+        transition: color 250ms;
+    }
+    
+    nav ul li a:hover{
+        color: rgb(0, 97, 97);
+    }
+    
+    .text{
+        position:relative;
+        display:inline-block;
+        align-items: center;
+        top: 20vh;
+        
+        align-items: center;
+        margin-left: 50px;
+        word-spacing: 2px;
+        font-style: normal;
+        
+    }
+    .gb{
+        display: flex;
+    }
+    .text{
+        position:relative;
+        display:inline-block;
+        align-items: center;
+        top: 7vh;
+        left: 5.6%;
+        word-spacing: 2px;
+        font-style: normal;
+        
+    }
+    .link{
+        margin-left:-55% ;
+        margin-top: 120%;
+        margin-right: -20%;
+    }
+    .link h1{
+        position:relative;
+        text-align: left;
+        font-weight:500;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size:25px;
+        padding-bottom: 10px;
+        
+    }
+    .link h2{
+        position:relative;
+        text-align: left;
+        font-weight:500;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size:25px;
+        padding-bottom: 10px;
+        margin-right: -100px;
+
+        
+    }
+    .link h3{
+        position:relative;
+        text-align: left;
+        font-weight:400;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size:10px;
+        padding-bottom: 10px;
+        
+    }
+    .link p{
+        position:relative;
+        text-align: left;
+        font-weight:100;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 17px;
+        padding-bottom: 10px;
+        margin-right: -100px;
+        
+    }
+    .link .but{
+        text-align: center;
+        align-self: center;
+        align-items: center;
+        position: relative;
+        width: 240px;
+        border: 0;
+        padding: 12px 10px;
+        outline: none;
+        color: rgb(0, 0, 0);
+        background-color: #ffffff;
+        border-radius: 6px;
+        cursor: pointer;
+        top: 2vh;
+        transition: background-color  250ms;
+        margin-left: 30px;
+    
+    }
+    
+    link .but:hover{
+        background-color:#ffffff4f
+        
+    
+    }
+    .link2{
+        margin-left:-24% ;
+        margin-top: 50%;
+        margin-right: 50%;
+    }
+    .link2 h1{
+        position:relative;
+        text-align: left;
+        font-weight:500;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size:25px;
+        padding-bottom: 10px;
+        
+    }
+    .link2 h2{
+        position:relative;
+        text-align: left;
+        font-weight:500;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size:25px;
+        padding-bottom: 10px;
+        margin-right: -100px;
+
+        
+    }
+    .link2 h3{
+        position:relative;
+        text-align: left;
+        font-weight:400;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size:10px;
+        padding-bottom: 10px;
+        
+    }
+    .link2 p{
+        position:relative;
+        text-align: left;
+        font-weight:100;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 17px;
+        padding-bottom: 10px;
+        margin-right: -100px;
+        
+    }
+    .link2 .but{
+        text-align: center;
+        align-self: center;
+        align-items: center;
+        position: relative;
+        width: 240px;
+        border: 0;
+        padding: 12px 10px;
+        outline: none;
+        color: rgb(0, 0, 0);
+        background-color: #ffffff;
+        border-radius: 6px;
+        cursor: pointer;
+        top: 2vh;
+        transition: background-color  250ms;
+        margin-left: 60px;
+    
+    }
+    
+    .link2 .but:hover{
+        background-color:#ffffff4f
+        
+    
+    }
+    
+    .all{
+        display: flex;
+        align-items: center;
+        margin-right: 50px;
+    }
+    .text2{
+        position:relative;
+        display:inline-block;
+        align-items: center;
+        top: 10vh;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+        word-spacing: 2px;
+        font-style: normal;
+        
+    }
+    .text2 p{
+        text-align: center;
+        font-weight:100;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 26px;
+        padding-bottom: 10px;
+        
+    }
+    
+    .text2 h1{
+        position:relative;
+        text-align: center;
+        font-weight:500;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size:20px;
+        padding-bottom: 30px;
+        
+    }
+    
+    .text h1{
+        position:relative;
+        text-align: center;
+        font-weight:500;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size:20px;
+        padding-bottom: 30px;
+        
+    }
+    .container2 .text h2{
+        position:relative;
+        text-align: center;
+        font-weight:500;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size:30px;
+        padding-bottom: 20px;
+        margin-right: -0px;
+        
+    }
+    .text h2{
+        position:relative;
+        text-align: center;
+        font-weight:500;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size:30px;
+        padding-bottom: 20px;
+        margin-right: -50px;
+        
+    }
+    .text h3{
+        position:relative;
+        text-align: center;
+        font-weight:400;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size:20px;
+        padding-bottom: 30px;
+        
+    }
+    .text2 h4{
+        position:relative;
+        text-align: center;
+        font-weight:500;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size:20px;
+        padding-bottom: 30px;
+        
+    }
+    .text p{
+        position:relative;
+        text-align: center;
+        font-weight:100;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 20px;
+        padding-bottom: 10px;
+        
+    }
+    
+    .text h1{
+        text-align: center;
+        font-weight:400;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size:50px;
+    
+    }
+    .text2 .but{
+        text-align: center;
+        align-self: center;
+        align-items: center;
+        position: relative;
+        width: 240px;
+        border: 0;
+        padding: 12px 10px;
+        outline: none;
+        color: rgb(0, 0, 0);
+        background-color: #ffffff;
+        border-radius: 6px;
+        cursor: pointer;
+        top: 7vh;
+        transition: background-color  250ms;
+    
+    }
+    
+    .text2 .but:hover{
+        background-color:#ffffff4f
+        
+    
+    }
+    
+    .text3 p{
+    
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 15px;
+        font-weight: 100;
+    }
+    
+    .text4{
+        position:relative;
+        display:inline-block;
+        align-items: center;
+        top: 8vh;
+        left: -2vh;
+        word-spacing: 2px;
+        font-style: normal;
+        
+    }
+    .text4 p{
+        text-align: center;
+        font-weight:100;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 15px;
+        top: 20px;
+        padding-bottom: 10px;
+        margin-bottom: 15px;
+
+        
+    }
+    
+    .text4 h1{
+        color: #868686;
+        position:relative;
+        text-align: center;
+        font-weight: 400;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size:20px;
+        padding-bottom: 20px;
+    
+    }
+        
+    .text4 .sub{
+       
+        align-items: center;
+        text-align: center;
+        position:relative;
+        display: flex;
+        bottom: 9vh;
+       
+    
+        
+        
+    }
+    .text4 .right{
+        position: relative;
+        margin-left: 30px;
+        margin-top: 80px;
+        
+    }
+    .text4 .cone{
+        margin-bottom: 10px;
+    }
+    .text4 .left{
+        margin-top: 70px;
+    
+        
+    }  
+    .text5 .sub{
+       
+        align-items: center;
+        text-align: center;
+        position:relative;
+        display: flex;
+        bottom: 9vh;
+       
+    
+        
+        
+    }
+    .text5 .right{
+        position: relative;
+        margin-left: 30px;
+        margin-top: 80px;
+        
+    }
+    .text5 .cone{
+        margin-bottom: 10px;
+    }
+    .text5 .left{
+        margin-top: 70px;
+    
+        
+    }  
+    
+    .text5{
+        position:relative;
+        display:inline-block;
+        align-items: center;
+        top: 8vh;
+        left: 4vh;
+        word-spacing: 2px;
+        font-style: normal;
+        
+  
+    }
+    .text5 p{
+        text-align: center;
+        font-weight:100;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 15px;
+        padding-bottom: 10px;
+        margin-bottom: 15px;
+        
+
+        
+    }
+    .logo2{
+        width: 30PX;
+        cursor: pointer;
+        margin-right: -20px;
+        
+    }
+    
+    .text5 h1{
+        color: #868686;
+        position:relative;
+        text-align: center;
+        font-weight: 400;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size:20px;
+        padding-bottom: 20px;
+    
+    }
+}
+
+@media only screen and (min-height:750px){
+    *{
+     
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+        color: #ffffff;
+    }
+    .menu-icon{
+        margin: 40px 0;
+        margin-left: 60px;
+        display: block;
+        width: 50px;
+        transform: rotate(90deg);
+    }
+    .container{
+        width: 100%;
+        min-height: 100vh;
+       
+        box-sizing: border-box;
+        overflow: hidden;
+        
+        background-size: cover ;
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        position: relative;    
+        height: 100%;
+        width: 100%;
+        animation: anim 150s  ease-in-out infinite;
+        background-image: url(nick-morrison-FHnnjk1Yj7Y-unsplash.jpg);
+      
+        background-repeat: no-repeat;
+    
+    
+    }
+    nav ul{
+        width: 110%;
+        background: linear-gradient(to right,rgba(03, 0, 40, 0.1), rgba(03, 0, 40,0.5) ) ;
+        position: absolute;
+        top: 80px;
+        right: 21%;
+        z-index: 2;
+    }
+    
+    .container2{
+       
+        min-height: 75vh;
+        padding-left: 30vh;
+        box-sizing: border-box;
+        overflow: hidden;
+        
+        background-size: cover ;
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        position: relative;    
+        height: 150%;
+        width: 100%;
+        animation: anim 150s  ease-in-out infinite;
+        background-image: url(nubelson-fernandes-9_AChhXcrc8-unsplash.jpg);
+      
+        background-repeat: no-repeat;
+    
+    
+    }
+    .midblock{
+        width: 100%;
+        min-height: 90vh;
+        padding-left: 8%;
+        padding-right: 8%;
+        box-sizing: border-box;
+        overflow: hidden;
+        
+        background-size: cover ;
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        position: relative;    
+        height: 110%;
+        width: 100%;
+        animation: anim 150s  ease-in-out infinite;
+        background-color: rgb(12,12,12);
+      
+        background-repeat: no-repeat;
+    }
+    
+    .background{
+        
+        width: 100%;
+        min-height: 100vh;
+        padding-left: 8%;
+        padding-right: 100%;
+        box-sizing:content-box;
+        overflow: hidden;
+        margin-left: -20vh;
+        background-size: cover ;
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        position: relative;    
+        height: 100%;
+        width: 100%;
+    
+        
+        background: linear-gradient(to bottom,rgba(12, 12, 12, 0.4), rgba(12, 12, 12, 0.300), rgba(12, 12, 12, 0.200), rgba(12, 12, 12, 0.200), rgba(12, 12, 12,0.450), rgba(12, 12, 12,  0.850))  ;
+        
+    }
+    
+    .bottomblock{
+        width: 100%;
+        min-height: 30vh;
+        padding-left: 8%;
+        padding-right: 8%;
+        box-sizing: border-box;
+        overflow: hidden;
+        display: flex;
+        background-size: cover ;
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        position: relative;    
+        height: 100%;
+        width: 100%;
+        animation: anim 150s  ease-in-out infinite;
+        background-color: rgb(12, 012, 12);
+      
+        background-repeat: no-repeat;
+    }
+    
+    .background2{
+        width: 150%;
+        min-width: 100vh;
+        min-height: 100vh;
+       
+        
+        box-sizing:content-box;
+        overflow: hidden;
+        margin-left: -45vh;
+        background-size: cover ;
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        position: relative;    
+        height: 100%;
+        
+    
+    
+      
+        background: linear-gradient(to bottom,rgba(12, 12, 12, 0.4), rgba(12, 12, 12, 0.300), rgba(12, 12, 12, 0.200), rgba(12, 12, 12, 0.200), rgba(12, 12, 12,0.450), rgba(12, 12, 12,  0.850))  ;
+        
+    }
+    
+    
+    ins{
+        display:block;
+        width: 100%;
+        height: 42vh;
+    }
+    
+    #menulist{
+        overflow: hidden;
+        transition: 0.5s;
+    }
+
+    .navbar{
+       
+        display: flex;
+        align-items: center;
+        margin-left: 140px;
+        
+    }
+    
+    .logo{
+        width: 50PX;
+        cursor: pointer;
+        margin: 30px 0;
+        
+    }
+    
+   
+    
+
+    
+    nav{
+        flex: 1;
+        text-align:right;
+        
+    }
+    
+    nav ul li{
+        list-style:none;
+        display:block;
+        padding-bottom: 10px;
+        
+    }
+    
+    nav ul li a{
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 14px;
+        cursor: pointer;
+        font-weight: 300;
+        
+        transition: color 250ms;
+    }
+    
+    nav ul li a:hover{
+        color: rgb(0, 97, 97);
+    }
+    
+    
+
+}
